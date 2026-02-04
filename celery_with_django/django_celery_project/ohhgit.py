@@ -3,7 +3,7 @@ ASGI config for django_celery_project project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
-For more information on this file, see or visit
+For more information on this file, see 
 https://docs.djangoproject.com/en/4.2/howto/deployment/asgi/
 """
 
