@@ -15,7 +15,7 @@ app.conf.update(timezone = 'Asia/Kolkata')
 
 app.config_from_object(settings, namespace = 'CELERY')
 
-# Celery Beat Settings info
+# Celery Beat Settings
 app.conf.beat_schedule = {
     'print_hello_every_minute':{
         'task' : 'mainapp.tasks.print_hello',
